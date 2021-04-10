@@ -18,7 +18,7 @@ function getCommonCharacterCount(s1, s2) {
     index = string2.indexOf(string1.charAt(i));
     if (index > -1) {
       counter++;
-      string2 = string2.substr(0, index) + string2.substr(index + 1);
+      string2 = string2.substring(0, index) + string2.substring(index + 1);
     }
   }
   return counter;
