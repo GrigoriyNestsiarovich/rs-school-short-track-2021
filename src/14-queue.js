@@ -27,8 +27,7 @@ class Queue {
   }
 
   dequeue() {
-    const node = this.queue.shift();
-    return node;
+    return this.queue.shift();
   }
 }
 
